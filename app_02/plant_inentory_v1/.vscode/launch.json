@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "plant_inentory_v1",
+        //     "cwd": "plant_inentory_v1",
+        //     "request": "launch",
+        //     "type": "dart"
+            
+        // },
+        // {
+        //     "name": "plant_inentory_v1 (profile mode)",
+        //     "cwd": "plant_inentory_v1",
+        //     "request": "launch",
+        //     "type": "dart",
+        //     "flutterMode": "profile"
+        // },
+        // {
+        //     "name": "plant_inentory_v1 (release mode)",
+        //     "cwd": "plant_inentory_v1",
+        //     "request": "launch",
+        //     "type": "dart",
+        //     "flutterMode": "release"
+        // },
+        {
+        "name": "Flutter (dev) with Supabase",
+        "type": "dart",
+        "request": "launch",
+        "toolArgs": [
+            "--dart-define=SUPABASE_URL=https://emgaxchaabpnbldvkuwg.supabase.co",
+            "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVtZ2F4Y2hhYWJwbmJsZHZrdXdnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYzNzgzMjQsImV4cCI6MjA3MTk1NDMyNH0.e5A3RDwENNkuNxLRfDkICyx-i72d79eo9g8lzXxW5Nk"
+        ]
+        }
+    ]
+}
